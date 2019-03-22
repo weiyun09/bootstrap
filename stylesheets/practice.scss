@@ -1,0 +1,27 @@
+// .btn{
+    //bootstrap4.2(含)要加這行
+    //因為預設會換行
+//     white-space: nowrap;
+// }
+
+.card-deck{
+    a.card:hover{
+        text-decoration: none;
+    }
+}
+
+.news-list li::before{
+    content: "．";
+    color: #fff;
+}
+
+
+@media screen and (max-width:560px){
+    #carouselExampleControls h1{
+        font-size: 2rem;
+    }
+
+    #carouselExampleControls .btn{
+        margin-top:0 !important;
+    }
+}

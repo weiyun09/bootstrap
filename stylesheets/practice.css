@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.card-deck a.card:hover {
+  text-decoration: none;
+}
+
+.news-list li::before {
+  content: "．";
+  color: #fff;
+}
+
+@media screen and (max-width: 560px) {
+  #carouselExampleControls h1 {
+    font-size: 2rem;
+  }
+  #carouselExampleControls .btn {
+    margin-top: 0 !important;
+  }
+}
+/*# sourceMappingURL=practice.css.map */
